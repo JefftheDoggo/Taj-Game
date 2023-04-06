@@ -2572,7 +2572,7 @@ var player = {
 };
 
 
-// Boss fight Config
+// fight Config
 var bossPlayer = {
     playerName: player_name,
     name: player_name+' the Terrorist',
@@ -2583,7 +2583,7 @@ var bossPlayer = {
     strength: 10,
     isTerrorist: false,
     armour: {
-        physical: {durability: 1000, resistance: 400},
+        physical: {durability: 1000, resistance: 1000},
         fire: {durability: 0, resistance: 0},
         energy: {durability: 0, resistance: 0},
         magical: {durability: 0, resistance: 0},
